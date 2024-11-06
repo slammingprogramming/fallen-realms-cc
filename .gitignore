@@ -1,0 +1,49 @@
+# Ignore Go build artifacts
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Ignore Go modules
+/go.mod
+/go.sum
+
+# Ignore Godot-specific generated files and folders
+.import/
+.export/
+.godot/
+*.import
+
+# Ignore Godot metadata
+export_presets.cfg
+
+# Ignore Godot backups (optional)
+*.save
+*.restore
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+
+# Ignore log files
+*.log
+
+# Ignore other OS-specific artifacts
+*~
+._*
